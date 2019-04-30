@@ -1,0 +1,18 @@
+Package: sts
+Type: Package
+Title: Spatio-Temporal Segregation Analysis
+Version: 0.0.9000
+Author: John R.B. Palmer <johnrbpalmer@gmail.com>
+Maintainer: John R.B. Palmer <johnrbpalmer@gmail.com>
+Description: A set of tools of analyzing spatio-temporal patterns of segregation.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  R (>= 3.5),
+  data.table (>= 1.12)
+Imports:
+  geosphere (>= 1.5-7),
+  parallel (>= 3.5.3),
+  compiler (>= 3.5.3)
+RoxygenNote: 6.1.1

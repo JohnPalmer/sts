@@ -5,8 +5,8 @@
 \title{Spatio-Temporal Proximity Index Empirical Sampling Distribution}
 \usage{
 stpesd(data = D, x = "long", y = "lat", t = "time", ID = "ID",
-  group = "race", cores = 2, small = FALSE, sample_size = 100,
-  nreps = 300)
+  group = "race", distance_function = "NegExp", cores = 2,
+  small = FALSE, sample_size = 100, nreps = 300)
 }
 \description{
 \code{stpesd} calculates the spatio-temporal proximity index for a population in

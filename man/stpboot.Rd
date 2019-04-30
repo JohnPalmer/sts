@@ -5,7 +5,8 @@
 \title{Spatio-Temporal Proximity Index Bootstrapped}
 \usage{
 stpboot(data = D, x = "long", y = "lat", t = "time", ID = "ID",
-  group = "race", cores = 2, small = FALSE, nboots = 300)
+  group = "race", distance_function = "NegExp", cores = 2,
+  small = FALSE, nboots = 300)
 }
 \description{
 \code{stpboot} calculates the spatio-temporal proximity index for a population in

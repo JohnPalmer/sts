@@ -5,7 +5,8 @@
 \title{Spatio-Temporal Proximity Index}
 \usage{
 stp(data = D, x = "long", y = "lat", t = "time", ID = "ID",
-  group = "race", cores = 2, small = FALSE)
+  group = "race", distance_function = "NegExp", cores = 2,
+  small = FALSE)
 }
 \description{
 \code{stp} calculates the spatio-temporal proximity index for a population in
